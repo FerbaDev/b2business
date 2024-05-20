@@ -1,0 +1,279 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+* {
+    font-family: Poppins !important;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Poppins-Bold !important;
+}
+h2{
+    font-size: 36px;
+    font-family: Poppins-Bold !important;
+}
+h3{
+    font-size: 32px;
+    font-family: Poppins-Bold !important;
+}
+h5{
+    color:#000000;
+}
+
+section {
+    padding: 40px 0;
+}
+
+footer {
+    padding: 0px 0;
+}
+
+nav{
+    background: transparent;
+    height: 80px;
+    width: 95%;
+}
+.enlace{
+    position: absolute;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+.logo-link{
+    padding: 10px 0;
+}
+.logo{
+    width: 200px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #000000;
+    font-size: 15px;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+.checkbtn{
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 130px;
+    }
+    .startup-item img{
+        height: 200px !important;
+        width: auto;
+    }
+    nav ul li a{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    .teamtext{
+        color: #706F6F !important;
+        text-align: center !important; 
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #009FE3;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 25px;
+    }
+    nav ul li a{
+        font-size: 18px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: white !important;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+
+@media (max-width: 700px){
+    .startup-item img{
+        height: 250px !important;
+        width: auto;
+    }
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    color: #000000;
+    cursor: pointer;
+}
+
+.text-link-primary{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.text-link-primary:hover{
+    color: #009FE3;
+    cursor: pointer;
+}
+
+.left-text{
+    text-align: left;
+}
+
+.text-primary {
+    color: #009FE3 !important;
+}
+
+.text-secondary {
+    color: #8a8a8a !important;
+}
+
+.button-primary {
+    background-color: #009FE3;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 0;
+}
+
+.button-secondary {
+    background-color: #f9f9f9;
+    color: #009FE3;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+}
+
+.separator-primary {
+    background-color: #009FE3;
+    height: 4px;
+    width: 150px;
+    margin: 20px auto;
+    margin-left: 0;
+    margin-right: 0;;
+}
+
+.separator-secondary {
+    background-color: #ffffff;
+    height: 4px;
+    width: 150px;
+    margin: 20px auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.separator-tertiary{
+    background-color: #009FE3;
+    height: 4px;
+    width: 150px;
+    margin: 20px auto;
+    margin-left: 100;
+    margin-right: 0;
+}
+
+.service-card{
+    background-color: #ddddddb4;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.service-card img{
+    margin: 20px 0;
+    border-radius:150px;
+    height: 150px;
+    width: auto;
+}
+
+.bluecard{
+    color: #009FE3;
+}
+
+.rounded-img{
+    border-radius: 7px;
+}
+
+.services-card-primary {
+    border-bottom: 4px solid #009FE3 !important;
+}
+
+.services-card-secondary {
+    border-bottom: 4px solid #3bbcec !important;
+}
+
+.working-process-item{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.startup-item{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+}
+
+.startup-item img{
+    height: 160px;
+    width: auto;
+}
+
+.teamtext{
+    color: #706F6F !important;
+    text-align: left; 
+}
+
+.teamtext p{
+    margin-top:0px; 
+    margin-bottom:0; 
+}
+
+.partners-item{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+}
+

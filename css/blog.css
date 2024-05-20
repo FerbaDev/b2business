@@ -1,0 +1,41 @@
+.blog-info div{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.cite{
+    padding: 35px;
+    border-left: 2px solid #44318f;
+    margin: 35px 0;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+* {
+    font-family: Poppins !important;
+    box-sizing: border-box;
+}
+
+.h1-blog{
+    font-size: 32px;
+    
+}
+.h2-blog{
+    font-size: 28px;
+   
+}
+.h3-blog{
+    font-size: 24px;
+   
+}
+.h4-blog{
+    font-size: 20px;
+   
+}
+.h5-blog{
+    font-size: 18px;
+   
+}
