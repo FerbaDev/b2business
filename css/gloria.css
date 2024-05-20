@@ -1,162 +1,179 @@
-h1, h2, h3 {
-    font-family: Poppins !important;
+h1,
+h2,
+h3 {
+  font-family: Poppins !important;
 }
 .gloria-hero {
-    min-height: 95vh;
-    width: 100%;
-    background-color: #009fe3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 20px;
-    color: #ffffff;
+  min-height: 95vh;
+  width: 100%;
+  background-color: #009fe3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  color: #ffffff;
 }
-
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .hero-titles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    text-wrap: balance;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-wrap: balance;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-block: 20px;
 }
 .hero-titles h1 {
-    font-size: 56px;
-    font-weight: bold;
-    padding-block: 20px;
-    
+  font-size: 56px;
+  font-weight: bold;
+  padding-block: 20px;
 }
 .hero-actions {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-block: 20px;
+}
+.hero-img-container {
+  width: 100%;
+}
+.hero-img-container img {
+  width: 100%;
 }
 .button-tercero {
-    background: transparent;
-    color: #ffffff;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    border: 1px solid white;
-    transition: 0.3s;
+  background: transparent;
+  color: #ffffff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid white;
+  transition: 0.3s;
 }
 .button-tercero:hover {
-    background: #ffffff;
-    color: #009fe3;
-    font-weight: bold;
-    border: none;
+  background: #ffffff;
+  color: #009fe3;
+  font-weight: bold;
+  border: none;
 }
 /* seccion conoce gloria */
 .conoce-gloria {
-    display: grid;
-    place-items: center;
-    text-align: center;
+  display: grid;
+  place-items: center;
+  text-align: center;
 }
 .conoce-gloria h2 {
-    font-size: 32px;
+  font-size: 32px;
 }
 .subtitulo {
-    color: #706F6F;
+  color: #706f6f;
 }
 /* seccion Features */
 .features-container {
-    padding: 20px;
+  padding: 20px;
 }
 .feat-header {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .feat-header h2 {
-    text-align: center;
-    padding-block: 32px;
-    font-size: 32px;
+  text-align: center;
+  padding-block: 32px;
+  font-size: 32px;
 }
 .features-container h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 .feat-img-container {
-    width: 100%;
-    padding-block: 20px;
+  width: 100%;
+  padding-block: 20px;
 }
 .feat-img-container img {
-    width: 100%;
+  width: 100%;
 }
 .par-feat-2 {
-    display: none;
+  display: none;
 }
-
 
 /* MEDIA QUERIES */
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .hero-titles h1 {
-        font-size: 100px;
-    }
-    .subtitulo {
-        font-size: 32px;
-    }
-    .conoce-gloria h2 {
-        font-size: 72px;
-        width: 80%;
-    }
-    .features-container {
-        padding: 200px;
-    }
-    .feat-header h2 {
-        text-align: start;
-        font-size: 72px;
-        text-wrap: balance;
-    }
-    .feat-info {
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 2em;
-        align-items: center;
-    }
-    .par-feat-1 {
-        display: none;
-    }
-    .par-feat-2 {
-        display: block;
-        font-size: 16px;
-    }
-    .feat-info-header {
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-        gap: 2em;
-    }
-    .feat-info-header h3 {
-        line-height: 1.8;
-        text-wrap: balance;
-    }
-    .feat-img-container {
-        width: 50%;
-    }
+  .hero-titles h1 {
+    font-size: 72px;
+  }
+  .subtitulo {
+    font-size: 32px;
+  }
+  .conoce-gloria h2 {
+    font-size: 72px;
+    width: 80%;
+  }
+  .features-container {
+    padding: 200px;
+  }
+  .feat-header h2 {
+    text-align: start;
+    font-size: 72px;
+    text-wrap: balance;
+  }
+  .feat-info {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2em;
+    align-items: center;
+  }
+  .par-feat-1 {
+    display: none;
+  }
+  .par-feat-2 {
+    display: block;
+    font-size: 16px;
+  }
+  .feat-info-header {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  .feat-info-header h3 {
+    font-size: 32px;
+    line-height: 1.8;
+    text-wrap: balance;
+  }
+  .feat-img-container {
+    width: 50%;
+  }
 }
 
 /* Large devices (laptops/desktops, 980px and up) */
 @media only screen and (min-width: 980px) {
-    .gloria-hero {
-        align-items: flex-start;
-        padding: 100px;
-    }
-    .hero-titles {
-        align-items: flex-start;
-        text-align: start;
-        padding-block: 20px;
-        max-width: 50%;
-    }
-    /* CONOCE GLORIA */
-    .conoce-gloria h2 {
-        font-size: 72px;
-        text-wrap: balance;
-    }
+  .gloria-hero {
+    padding: 100px 200px;
+    flex-direction: row;
+  }
+  .hero-info {
+    align-items: flex-start;
+  }
+  .hero-titles {
+    align-items: flex-start;
+    text-align: start;
+    padding-block: 20px;
+    max-width: 80%;
+  }
+
+  /* CONOCE GLORIA */
+  .conoce-gloria h2 {
+    font-size: 72px;
+    text-wrap: balance;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
