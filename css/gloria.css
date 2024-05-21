@@ -185,6 +185,23 @@ h3 {
   border-bottom-right-radius:0;
   border-bottom-left-radius:0;
 }
+/************** seccion CTA ********************/
+.cta-container {
+  padding: 20px;
+  background-color: #009fe3;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.cta-text {
+  padding-block: 20px;
+}
+.cta-img-container {
+  width: 100%;
+}
+.cta-img-container img {
+  width: 100%;
+}
 /************************** MEDIA QUERIES *************************/
 /*****************************************************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -250,10 +267,23 @@ h3 {
     gap: 2em;
     align-items: center;
   }
+  /*********** seccion CTA ******************/
+  .cta-container {
+    padding: 50px 200px;
+    flex-direction: row;
+    gap: 2em;
+  }
+  .cta-text h2 {
+    font-size: 72px;
+  }
+  .cta-img-container {
+    display: none;
+  }
 }
 
 /* Large devices (laptops/desktops, 980px and up) */
 @media only screen and (min-width: 980px) {
+
   /**************** HERO *****************/
   .gloria-hero {
     padding: 100px 200px;
@@ -277,8 +307,14 @@ h3 {
   .road-timeline {
     width: 60%;
   }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+   /********************** seccion cta ******************/
+  .cta-img-container {
+    display: block;
+      }
 }
