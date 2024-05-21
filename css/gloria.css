@@ -3,6 +3,7 @@ h2,
 h3 {
   font-family: Poppins !important;
 }
+/******* hero ************/
 .gloria-hero {
   min-height: 95vh;
   width: 100%;
@@ -60,7 +61,7 @@ h3 {
   border: none;
 }
 
-/* seccion conoce gloria */
+/************ seccion conoce gloria ***********/
 .conoce-gloria {
   display: grid;
   place-items: center;
@@ -73,7 +74,7 @@ h3 {
   color: #706f6f;
 }
 
-/* seccion Features */
+/******************* seccion Features ***************/
 .features-container {
   padding: 20px;
 }
@@ -99,18 +100,95 @@ h3 {
   display: none;
 }
 
-/* seccion Aprendizaje */
+/***************** seccion Aprendizaje ********************/
 .learn-container {
   padding: 20px;
 }
+/***************** seccion Como funciona ********************/
+.road-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.road-timeline {
+  width: 300px;
 
-/* MEDIA QUERIES */
+}
+.par-timeline {
+  border-top: 2px dashed;
+  border-color: #009fe3 !important;
+  margin:0; 
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+}
+.par-timeline:nth-child(even):before {
+  content: counter(section);
+  position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  right: 100%; 
+  margin-right: -20px;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: #009fe3;
+  text-align:center;
+  color: white;
+  line-height: 0.2em;
+}
+
+.par-timeline:nth-child(odd):before {
+  content: counter(section);
+  left: 100%; 
+  margin-left: -20px;
+  position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  height: 20px;
+  width: 20px;
+  background-color: #009fe3;
+  text-align:center;
+  color: white;
+  line-height: 0.2em;
+}
+
+.par-timeline:nth-child(even) {
+  border-left: 2px dashed;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 30px; 
+  padding-right: 0;
+}
+
+.par-timeline:nth-child(odd) {
+  border-right: 2px dashed;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 30px; 
+  padding-left: 0;
+}
+
+.par-timeline:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+}
+
+.par-timeline:last-child {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
+}
+/************************** MEDIA QUERIES *************************/
+/*****************************************************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  /*************** HERO **********************/
   .hero-titles h1 {
     font-size: 72px;
   }
@@ -121,6 +199,7 @@ h3 {
     font-size: 72px;
     width: 80%;
   }
+  /************* FEATURES *************/
   .features-container {
     padding: 200px;
   }
@@ -170,6 +249,7 @@ h3 {
 
 /* Large devices (laptops/desktops, 980px and up) */
 @media only screen and (min-width: 980px) {
+  /**************** HERO *****************/
   .gloria-hero {
     padding: 100px 200px;
     flex-direction: row;
@@ -184,10 +264,13 @@ h3 {
     max-width: 80%;
   }
 
-  /* CONOCE GLORIA */
+  /********************** CONOCE GLORIA ******************/
   .conoce-gloria h2 {
     font-size: 72px;
     text-wrap: balance;
+  }
+  .road-timeline {
+    width: 60%;
   }
 }
 
