@@ -202,6 +202,14 @@ h3 {
 .cta-img-container img {
   width: 100%;
 }
+/*********** seccion FAQS ******************/
+.faqs-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 /************************** MEDIA QUERIES *************************/
 /*****************************************************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
