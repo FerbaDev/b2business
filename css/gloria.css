@@ -5,13 +5,12 @@ h3 {
 }
 /******* hero ************/
 .gloria-hero {
-  min-height: 95vh;
   width: 100%;
   background-color: #009fe3;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 20px;
+  padding: 20px;
   color: #ffffff;
 }
 .hero-info {
@@ -26,12 +25,11 @@ h3 {
   text-align: center;
   text-wrap: balance;
   border-bottom: 1px solid #b2b2b2;
-  padding-block: 20px;
 }
 .hero-titles h1 {
-  font-size: 56px;
+
   font-weight: bold;
-  padding-block: 20px;
+
 }
 .hero-actions {
   display: flex;
@@ -67,9 +65,6 @@ h3 {
   place-items: center;
   text-align: center;
 }
-.conoce-gloria h2 {
-  font-size: 32px;
-}
 .subtitulo {
   color: #b2b2b2;
 }
@@ -84,10 +79,6 @@ h3 {
 .feat-header h2 {
   text-align: center;
   padding-block: 32px;
-  font-size: 32px;
-}
-.features-container h3 {
-  font-size: 20px;
 }
 .feat-img-container {
   width: 100%;
@@ -220,7 +211,18 @@ h3 {
 .reviews-container h4 {
   padding-block: 20px;
 }
-
+/**************** DEMOSTRACIÓN **********************/
+.demo-container {
+  padding: 20px;
+  max-width: 100%;
+}
+.demo-container h3 {
+  padding-block: 20px;
+}
+.agenda-demo-container {
+  display: grid;
+  place-items: center;
+}
 /************************** MEDIA QUERIES *************************/
 /*****************************************************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -230,24 +232,17 @@ h3 {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   /*************** HERO **********************/
-  .hero-titles h1 {
-    font-size: 72px;
-  }
-  .subtitulo {
-    font-size: 32px;
-  }
+
   /************* GLORIA ****************/
   .conoce-gloria h2 {
-    font-size: 72px;
     width: 80%;
   }
   /************* FEATURES *************/
   .features-container {
-    padding: 50px 200px;
+    padding: 20px 200px;
   }
   .feat-header h2 {
     text-align: start;
-    font-size: 72px;
     text-wrap: balance;
   }
   .feat-info {
@@ -270,7 +265,6 @@ h3 {
     gap: 2em;
   }
   .feat-info-header h3 {
-    font-size: 32px;
     line-height: 1.8;
     text-wrap: balance;
   }
@@ -293,9 +287,6 @@ h3 {
     flex-direction: row;
     gap: 2em;
   }
-  .cta-text h2 {
-    font-size: 72px;
-  }
   .cta-img-container {
     display: none;
   }
@@ -303,13 +294,18 @@ h3 {
   .reviews-container {
     padding: 100px 200px;
   }
+  /***********demo container*************/
+  .demo-container {
+    padding: 20px 200px;
+
+  }
 }
 
 /* Large devices (laptops/desktops, 980px and up) */
 @media only screen and (min-width: 980px) {
   /**************** HERO *****************/
   .gloria-hero {
-    padding: 100px 200px;
+    padding: 20px 200px;
     flex-direction: row;
   }
   .hero-info {
@@ -324,7 +320,6 @@ h3 {
 
   /********************** CONOCE GLORIA ******************/
   .conoce-gloria h2 {
-    font-size: 72px;
     text-wrap: balance;
   }
   .road-timeline {
