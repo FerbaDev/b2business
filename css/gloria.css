@@ -4,9 +4,6 @@ h3 {
   font-family: Poppins !important;
 }
 /*********Navbar************/
-/* nav {
-  width: 100%;
-} */
 ul {
   margin: 0;
 }
@@ -47,27 +44,14 @@ ul {
 .hero-img-container img {
   width: 100%;
 }
-.button-tercero {
-  background: transparent;
-  color: #ffffff;
-  padding: 10px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-  border: 1px solid white;
-  transition: 0.3s;
-}
-.button-tercero:hover {
-  background: #ffffff;
-  color: #009fe3;
-  font-weight: bold;
-  border: none;
-}
 
 /************ seccion conoce gloria ***********/
 .conoce-gloria {
+  padding: 20px;
   display: grid;
   place-items: center;
   text-align: center;
+  text-wrap: balance;
 }
 .subtitulo {
   color: #706F6F;
@@ -236,10 +220,10 @@ ul {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   /*************** HERO **********************/
-  .container {
-    margin: 0 35px;
-  }
   /************* GLORIA ****************/
+  .conoce-gloria {
+    padding: 20px 200px;
+  }
   .conoce-gloria h2 {
     width: 80%;
   }
