@@ -1,14 +1,103 @@
+/***************** HERO ***********************/
+.planes-hero-container {
+    text-align: center;
+    text-wrap: balance;
+}
+/************PRECIOS DE PLANES*****************/
+.planes-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 30px;
+}
+.cards-planes-container {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.card-plan {
+    padding: 16px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+.card-plan-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #706F6F;
+    width: 100%;
+}
+.card-plan-header button {
+    width: 100%;
+}
+.planes-icons {
+    display: flex;
+    padding: 10px 0;
+    gap: 1em;
+}
+.planes-icons img {
+    height: 36px;
+    width: 36px;
+}
+.bg-icon {
+    font-size: 1.2em;
+    background-color: #009FE3;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.bg-icon-whats {
+    font-size: 1.2em;
+    background-color: #25D366;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.planes-items {
+    padding-block: 16px;
+}
+.item-plan {
+    display: flex;
+}
+.card-plan-esencial {
+    padding: 16px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    background-color: #009FE3;
+    color: #fff;
+}
+.card-plan-header-esencial {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+.bg-icon-esencial {
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #009FE3;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.card-plan-header-esencial {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
+/* ------------- seccion prueba --------------- */
+.prueba-container {
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
 
 /************************** MEDIA QUERIES *************************/
 /*****************************************************************/
