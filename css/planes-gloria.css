@@ -107,31 +107,36 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /********************************/
-
-  /*****************************/
- 
-  /************* *************/
-
-  /*********** ******************/
-
-  /********** ******************/
-
-  /*********** ******************/
-
+/************* seccion precios de planes *******************/
+.cards-planes-container {
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-plan {
+    max-width: 350px;
+}
+.card-plan-esencial {
+    max-width: 350px;
+}
+.planes-icons {
+    flex-wrap: wrap;
+}
 }
 
 /* Large devices (laptops/desktops, 980px and up) */
 @media only screen and (min-width: 980px) {
-  /*********************************/
-
-
-  /********************** ******************/
+/************* seccion precios de planes ********************/
+.buttons-container {
+    flex-direction: row;    
+    padding-bottom: 30px;
+}
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /**********************  ******************/
- 
+
+
 }
