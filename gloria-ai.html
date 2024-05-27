@@ -21,6 +21,7 @@
     <link href="./css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/agenda.css">
     <link href="./css/gloria.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/planes-gloria.css">
     <link rel="icon" sizes="32x32" type="image/png" href="img/favicon.png" />
     <!-- Gloria AI) -->
     <script id="_gloria-chat-script"  src="https://app.iamgloria.com/chat-plugin/gloria.js?tenantId=663418f932d7160f9201c3e5">  </script>
@@ -265,6 +266,170 @@
               </div>
         </div>
     </section>
+    <!-- seccion PRECIOS DE PLANES -->
+    <div class="planes-hero-container">
+        <h4 class="subtitulo">PRECIOS</h4>
+        <h2>DAR EL PRIMER PASO CON EL <span style="color: #009FE3;">PLAN PERFECTO</span></h2>
+    </div>
+    <section class="planes-container">
+        <div class="buttons-container">
+            <button class="button-secondary" id="monthly-btn">Mensualmente</button>
+            <button class="button-primary" id="annual-btn">Anual (2 meses gratis)</button>
+        </div>
+        <!--tarjetas de planes-->
+        <div class="cards-planes-container">
+            <div class="card-plan">
+                <div class="card-plan-header">
+                    <h4 class="subtitulo">BASIC</h4>
+                    <h3 id="price-basic">$39 <span style="font-size: small;">/ por mes</span></h3>
+                    <button class="button-primary">Suscribirme</button>
+                </div>
+                <div class="planes-icons">
+                    <i class="bi bi-globe bg-icon"></i>
+                </div>
+                <div class="planes-items">
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>1 mes de historial de chat.</p>
+                    </div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>Notificaciones por correo electrónico en tiempo real.</p></div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>Entrada de voz: permite a los ususarios enviar mensajes de voz.</p></div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>Personalización de chat: desde el avatar y la posición del avatar personalizados, hasta los mensajes predeterminados.</p></div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>Gestor de preguntas y respuestas.</p></div>
+                </div>
+            </div>
+            <div class="card-plan-esencial">
+                <div class="card-plan-header-esencial">
+                    <div style="display: flex;">
+                        <h4>ESENCIAL</h4>
+                        <i class="bi bi-stars" style="color: gold;"></i>
+                    </div>
+                    <h3 id="price-esencial">$99 <span style="font-size: small;">/ por mes</span></h3>
+                    <button class="button-secondary">Suscribirme</button>
+                </div>
+                <div class="planes-icons">
+                    <i class="bi bi-globe bg-icon-esencial"></i>
+                    <i class="bi bi-chat-fill bg-icon-esencial"></i>
+                    <i class="bi bi-envelope-fill bg-icon-esencial"></i>
+                    <i class="bi bi-whatsapp bg-icon-whats"></i>
+                </div>
+                <div class="planes-items">
+                    <p>Todo en basic mas:</p>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>3 meses de historial de chat.</p>
+                    </div>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Notificaciones por correo electrónico y SMS en tiempo real.</p>
+                    </div>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Integración con SMS, Whatsapp, Email y Zapier.</p>
+                    </div>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Gestor de preguntas y respuestas con archivos adjuntos.</p>
+                    </div>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Sin marca de agua.</p>
+                    </div>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Chat en directo: Entre en cualquier sesión y hable directamente con sus clientes.</p>
+                    </div>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Asistencia por correo electrónico.</p>
+                    </div>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Utilice Gloria en varios sitios web.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-plan">
+                <div class="card-plan-header">
+                    <h4 class="subtitulo">PROFESIONAL</h4>
+                    <h3 id="price-pro">$249 <span style="font-size: small;">/ por mes</span></h3>
+                    <button class="button-primary">Suscribirme</button>
+                </div>
+                <div class="planes-icons">
+                    <i class="bi bi-globe bg-icon"></i>
+                    <i class="bi bi-chat-fill bg-icon"></i>
+                    <i class="bi bi-envelope-fill bg-icon"></i>
+                    <i class="bi bi-whatsapp bg-icon-whats"></i>
+                    <img src="./img/zapier-icon.svg" alt="Zapier logo">
+                    <i class="bi bi-diagram-2 bg-icon"></i>
+                </div>
+                <div class="planes-items">
+                    <p style="color: #009FE3;">Todo en ESENCIAL mas:</p>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Historial de chat ilimitado.</p>
+                    </div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>Formación personalizada en IA.</p></div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>GPT-4 o Claude 3 como modelos de inteligencia.</p></div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>Interpreta y responde al audio y las imágenes enviadas por Whatsapp.</p></div>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Soluciones personalizadas con la integración de la API de Gloria.</p>
+                    </div>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Acceso anticipado a nuevas funciones.</p>
+                    </div>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Asistencia por correo electrónico, teléfono y chat en directo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-plan">
+                <div class="card-plan-header">
+                    <h4 class="subtitulo">EMPRESA</h4>
+                    <h3>A MEDIDA</h3>
+                    <button class="button-primary">Suscribirme</button>
+                </div>
+                <div class="planes-icons">
+                    <i class="bi bi-globe bg-icon"></i>
+                    <i class="bi bi-chat-fill bg-icon"></i>
+                    <i class="bi bi-envelope-fill bg-icon"></i>
+                    <i class="bi bi-whatsapp bg-icon-whats"></i>
+                    <img src="./img/zapier-icon.svg" alt="Zapier logo">
+                    <i class="bi bi-diagram-2 bg-icon"></i>
+                </div>
+                <div class="planes-items">
+                    <p style="color: #009FE3;">Todo en PROFESIONAL mas:</p>
+                    <div class="item-plan">
+                        <i class="bi bi-check"></i>
+                        <p>Flujos personalizados: Preguntas de varios pasos para ejecutar flujos empresariales más complejos.</p>
+                    </div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>Integración de CRM: Salesforce, Pipedrive, Odoo, Hubspot, ect.</p></div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>Integración de comercio electrónico: Números de seguimiento, envío, cumplimiento, etc.</p></div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>Integración de productos: Gloria recomendará productos con imágenes.</p></div>
+                    <div class="item-plan"><i class="bi bi-check"></i>
+                        <p>Integración de bases de datos: Conectaremos con cualquier aplicación interna.</p></div>
+                </div>
+                <p>Flujo automatizado de marketing y ventas: crearemos procesos de IA totalmente automatizados.</p>
+                <p>y más...</p>
+            </div>
+        </div>
+        <!-- cierra planes container -->
+        <p><span style="font-weight: bold;">*Mensajes web y API:</span> Los mensajes adicionales tendrán un precio de 1 céntimo en la web y 25 céntimos en una conversación de Whatsapp. <i>Los SMS se cobran siempre a 25 céntimos por mensaje.</i> </p>
+    </section>
+
     <!-- seccion GOOGLE REVIEWS -->
     <section class="reviews-container">
         <h3 class="subtitulo">Testimonios de nuestros clientes usando Gloria AI</h3>
@@ -359,5 +524,6 @@
         </div>
     </section>
 </footer>
+<script src="./planes-gloria.js"></script>
 </body>
 </html>
